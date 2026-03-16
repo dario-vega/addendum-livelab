@@ -30,4 +30,4 @@ CREATE TABLE IF NOT EXISTS stream_acct (
     )
   ),
   PRIMARY KEY(id)
-);
+)
