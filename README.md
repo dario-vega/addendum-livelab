@@ -24,6 +24,8 @@ oci nosql table create --compartment-id "$NOSQL_COMPID"   \
 --wait-for-state SUCCEEDED --wait-for-state FAILED
 ```
 
+# Lab 4/Task 4: NoSQL Tables Deployment
+
 Review the DDL commands
 
 ```shell
@@ -35,5 +37,6 @@ Execute the create-table.js application. Execute in the Cloud Shell.
 
 ```shell
 cd ~/addendum-livelab/demo-vod
+npm install
 node create-table.js
 ```
